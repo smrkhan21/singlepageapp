@@ -1,11 +1,11 @@
 import './App.css'
-import About from './components/About';
-import Home from "./components/Home";
-import MyFooter from './components/MyFooter';
-import NavBar from "./components/NavBar";
-import Newsletter from './components/Newsletter';
-import Products from './components/Products';
-import Services from './components/Services';
+import About from './components/About.jsx';
+import Home from "./components/Home.jsx";
+import MyFooter from './components/MyFooter.jsx';
+import NavBar from "./components/NavBar.jsx";
+import Newsletter from './components/Newsletter.jsx';
+import Products from './components/Products.jsx';
+import Services from './components/Services.jsx';
 
 export default function App() {
   return (
