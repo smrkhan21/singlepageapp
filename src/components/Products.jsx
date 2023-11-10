@@ -1,5 +1,12 @@
 import React from 'react'
-import aboutImg from './../assets/pana.png'
+import aboutImg from './../assets/pana.png';
+import tesla from './../assets/tesla.png';
+import logo1 from './../assets/logo_1.png';
+import logo2 from './../assets/logo_2.png';
+import logo3 from './../assets/logo_3.png';
+import logo4 from './../assets/logo_4.png';
+import logo5 from './../assets/logo_5.png';
+import logo6 from './../assets/logo_6.png';
 
 const Products = () => {
   return (
@@ -21,7 +28,7 @@ const Products = () => {
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
             <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
                 <div className='md:w-1/3'>
-                    <img src="/src/assets/tesla.png" alt="" />
+                    <img src={tesla} alt="" />
                 </div>
                 <div className='md:w-2/3 mx-auto'>
                     <p className='md:w-4/5 text-neutralGrey text-sm mb-8 leading-8'>
@@ -31,12 +38,12 @@ const Products = () => {
                     <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
                     <div>
                         <div className='flex items-center gap-8 flex-wrap'>
-                            <img src="/src/assets/logo_1.png" alt="" className='cursor-pointer' />
-                            <img src="/src/assets/logo_2.png" alt="" />
-                            <img src="/src/assets/logo_3.png" alt="" />
-                            <img src="/src/assets/logo_4.png" alt="" />
-                            <img src="/src/assets/logo_5.png" alt="" />
-                            <img src="/src/assets/logo_6.png" alt="" />
+                            <img src={logo1} alt="logo_1" className='cursor-pointer' />
+                            <img src={logo2} alt="logo_2" className='cursor-pointer' />
+                            <img src={logo3} alt="logo_3" className='cursor-pointer' />
+                            <img src={logo4} alt="logo_4" className='cursor-pointer' />
+                            <img src={logo5} alt="logo_5" className='cursor-pointer' />
+                            <img src={logo6} alt="logo_6" className='cursor-pointer' />
                             <div className='items-center gap-8'>
                                 <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Meet all customers
                                     <svg className='inline-block ml-2' xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 6 4" fill="none">
