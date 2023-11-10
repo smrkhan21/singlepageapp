@@ -3,7 +3,7 @@ import Icon from './../assets/Icon.png'
 import { Link } from 'react-scroll'
 import {FaBars, FaXmark} from 'react-icons/fa6'
 
-const NavBar = () => {
+const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isSticky, setIsSticky] = useState(false)
 
@@ -77,4 +77,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
